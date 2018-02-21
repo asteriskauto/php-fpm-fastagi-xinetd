@@ -1,0 +1,10 @@
+service fastagi
+{
+socket_type = stream
+user = root
+group = root
+server = /opt/phpagi/phpagi-fastagi.php
+wait = no
+protocol = tcp
+disable = no
+}
